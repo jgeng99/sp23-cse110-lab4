@@ -1,6 +1,6 @@
 <ol>
   <li>FWhat is printed by line 9? If the code returns an error, explain why. </li>
-  - <p style="color:blue">values added:  20</p>
+  <span style="color:blue"> values added: 20 </span>
   <li>Second item</li>
   <li>Third item</li>
   <li>Fourth item</li>
