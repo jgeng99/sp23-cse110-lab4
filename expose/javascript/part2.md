@@ -25,9 +25,9 @@
     Given the above Object, write the notation for: 
     <br> &nbsp;&nbsp; A. Accessing the value of the name property in the student object 
     <p> &emsp;&emsp;&emsp; student['name'] </p>
-    <br> &nbsp;&nbsp; B. Accessing the value of the Grad Year property in the student object
+    &nbsp;&nbsp; B. Accessing the value of the Grad Year property in the student object
     <p> &emsp;&emsp;&emsp; student['Grad Year'] </p>
-    <br> &nbsp;&nbsp; C. Calling the function for the greeting property in the student object
+    &nbsp;&nbsp; C. Calling the function for the greeting property in the student object
     <p> &emsp;&emsp;&emsp; student['greeting']() </p>
   </li>
 </ol>
