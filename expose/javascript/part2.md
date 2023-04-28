@@ -23,6 +23,6 @@
   <p> <br> The function will return a list of prices where each price is half the value from the same position of the oritinal prices list. The function first returns successfully because the initialization and return of the variable are within the same block. This is in accordance to the definition of a const type. The function further returns such a halved prices list because it runs through a prices list and half each price to append it to a new list. We are able to append to the const type because we are not assigning it to a new value. Lastly it just returns the halved prices list. </p>
   <li> 
     Given the above Object, write the notation for: 
-    &nbsp;&nbsp; a
+    <br> &nbsp;&nbsp; a
   </li>
 </ol>
