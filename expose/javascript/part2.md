@@ -34,4 +34,22 @@
     &nbsp;&nbsp; E. Access index zero in the array of the courseLoad property of the student object
     <p> &emsp;&emsp;&emsp; student['courseLoad'][0] </p>
   </li>
+  <li> Arithmetic
+    <br> &nbsp;&nbsp; A. ‘3’ + 2
+    <p> &emsp;&emsp;&emsp; The output is "32". This is because it will cast int to string before the addition. </p>
+    <br> &nbsp;&nbsp; B. ‘3’ - 2
+    <p> &emsp;&emsp;&emsp; The output is 1. This is because it will cast string to int before the subtraction. </p>
+    <br> &nbsp;&nbsp; C. 3 + null
+    <p> &emsp;&emsp;&emsp; The output is 3. This is because the addition operator will treat null as 0 with another integer. </p>
+    <br> &nbsp;&nbsp; D. ‘3’ + null
+    <p> &emsp;&emsp;&emsp; The output is '3null'. This is because the addition operator will treat null as a string with another string. </p>
+    <br> &nbsp;&nbsp; E. true + 3
+    <p> &emsp;&emsp;&emsp; The output is 4. This is because the addition operator will treat true as 1 with another integer. </p>
+    <br> &nbsp;&nbsp; F. false + null
+    <p> &emsp;&emsp;&emsp; The output is 0. This is because the addition operator will treat false and null as 0 in numeric operations. </p>
+    <br> &nbsp;&nbsp; G. '3' + undefined
+    <p> &emsp;&emsp;&emsp; The output is '3undefined'. This is because the addition operator will convert undefined value to string and concatenate it with '3'. </p>
+    <br> &nbsp;&nbsp; H. '3' - undefined
+    <p> &emsp;&emsp;&emsp; The output is NaN. This is because the subtraction operator will first convert string to numeric value. But undefined cannot be compared to numeric value in any ways, this results in an invalid mathematical operation. </p>
+  </li>
 </ol>
