@@ -24,6 +24,6 @@
   <li> 
     Given the above Object, write the notation for: 
     <br> &nbsp;&nbsp; A. Accessing the value of the name property in the student object 
-    <p> &emsp;&emsp; student['name'] </p>
+    <p> &emsp;&emsp;&emsp; student['name'] </p>
   </li>
 </ol>
