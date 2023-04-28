@@ -29,5 +29,9 @@
     <p> &emsp;&emsp;&emsp; student['Grad Year'] </p>
     &nbsp;&nbsp; C. Calling the function for the greeting property in the student object
     <p> &emsp;&emsp;&emsp; student['greeting']() </p>
+    &nbsp;&nbsp; D. Accessing the name property of the object in the Favorite Teacher property in student
+    <p> &emsp;&emsp;&emsp; student['Favorite Teacher']['name'] </p>
+    &nbsp;&nbsp; E. Access index zero in the array of the courseLoad property of the student object
+    <p> &emsp;&emsp;&emsp; student['courseLoad'][0] </p>
   </li>
 </ol>
