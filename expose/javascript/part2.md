@@ -21,4 +21,10 @@
   <p> <br> The 12th line would print "3" to the terminal. First the code would not crash because the variable "length" is defined as the type "const" at the very top of the function, which will be accessible across the function block. The line prints "3" because it is the size of the input list. </p>
   <li> What will this function return? Give a brief explanation. If the code causes an error, explain why. </li>
   <p> <br> The function will return a list of prices where each price is half the value from the same position of the oritinal prices list. The function first returns successfully because the initialization and return of the variable are within the same block. This is in accordance to the definition of a const type. The function further returns such a halved prices list because it runs through a prices list and half each price to append it to a new list. We are able to append to the const type because we are not assigning it to a new value. Lastly it just returns the halved prices list. </p>
+  <li> 
+    Given the above Object, write the notation for: 
+    <ol type="a">
+        <li> Coffee </li>
+    </ol>
+  </li>
 </ol>
