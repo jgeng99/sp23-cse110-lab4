@@ -52,4 +52,28 @@
     <br> &nbsp;&nbsp; H. '3' - undefined
     <p> &emsp;&emsp;&emsp; The output is NaN. This is because the subtraction operator will first convert string to numeric value. But undefined cannot be compared to numeric value in any ways, this results in an invalid mathematical operation. </p>
   </li>
+  <li> Comparison
+    <br> &nbsp;&nbsp; A. '2' > 1
+    <p> &emsp;&emsp;&emsp; The output is true. This is because string '2' becomes a number 2 and 2 is greater than 1. </p>
+    <br> &nbsp;&nbsp; B. '2' < '12'
+    <p> &emsp;&emsp;&emsp; The output is false. This is because string '2' is compared against '1', and '2' is greater than '1'. </p>
+    <br> &nbsp;&nbsp; C. 2 == '2'
+    <p> &emsp;&emsp;&emsp; The output is true. This is because string '2' becomes a number 2 and 2 equals to 2. </p>
+    <br> &nbsp;&nbsp; C. 2 === '2'
+    <p> &emsp;&emsp;&emsp; The output is false. This is because the operator === checks the equality without type conversion, and the types are different. </p>
+    <br> &nbsp;&nbsp; C. true == 2
+    <p> &emsp;&emsp;&emsp; The output is true. This is because boolean true becomes a number 1 and 2 is not equal 1. </p>
+    <br> &nbsp;&nbsp; C. true === Boolean(2)
+    <p> &emsp;&emsp;&emsp; The output is true. This is because boolean 2 is true. And === operator checks the equality without type conversion. </p>
+  </li>
+  <li> Explain the difference between the == and === operators. </li>
+  <p> <br> Both operators are used to compare value. '==' converts operands of differents types and then check equality. '===' checks the equality without type conversion. </p>
+  <li> Given the above Object, write a for...in loop that will iterate through it and print out the value of the property if the property starts with the letter r, or if the value of that property is an odd number. </li>
+  <p> <br> In 'part2-question16.js' </p>
+  <li> If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result? Briefly walk through how you arrived at that result. </li>
+  <p> <br> The result will be an array [2,4,6]. Within the modifyArray, it takes in an array and a function, then creates a new array. After that, it iterates through the length of input array. For each iteration, it calls the function on the ith index and pushes the result to the new array. When the loop ends, it returns this new array.  </p>
+  <li> The above program only prints out the time once when executed. Modify this code such that the program prints out the time every second. </li>
+  <p> <br> In 'part2-question18.js' </p>
+  <li> What is the output of the above code? </li>
+  <p> <br> The output is 1, 4, 3, 2 in this order. </p>
 </ol>
